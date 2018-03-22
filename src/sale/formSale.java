@@ -106,7 +106,7 @@ public class formSale extends javax.swing.JFrame {
     private void buttonCalculateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonCalculateActionPerformed
        double price, discount, total;
        price= Integer.parseInt(inputField.getText());
-       if (price >= 10)
+       if (price > 10)
        {
            discount=price*.10;
            total=price-discount;          
